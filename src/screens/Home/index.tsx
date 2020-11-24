@@ -9,12 +9,13 @@ import back from '../../../assets/back.png';
 import bookLove from '../../../assets/book-love.png';
 import { useNavigation } from '@react-navigation/native';
 
+
 export default function Home() {
   
   const navigation = useNavigation();
 
-
   return (
+
     <Container>
       <StatusBar style="auto" />
       <Image source={top} style={{ position: 'absolute', top: 0, left: 0 }} />

@@ -28,12 +28,16 @@ export const TitleForm = styled.Text`
   font-weight: bold;
   font-size: 22px;
   line-height: 26px;
+
+  font-family: 'Roboto_700Bold';
 `;
 
 export const Label = styled.Text`
   color: #0C0B5B;
   font-size: 16px;
   line-height: 19px;
+
+  font-family: 'Roboto_400Regular';
 `;
 
 export const Input = styled.TextInput`
@@ -45,6 +49,8 @@ export const Input = styled.TextInput`
 
   padding-left: 15px;
   padding-right: 15px;
+
+  font-family: 'Roboto_400Regular';
 `;
 
 export const ForgotPasswordText = styled.Text`
@@ -53,6 +59,8 @@ export const ForgotPasswordText = styled.Text`
   line-height: 15px;
   margin-top: 5px;
   color: #0C0B5B;
+
+  font-family: 'Roboto_400Regular'
 `;
 
 export const Button = styled.TouchableOpacity<IButton>`
@@ -88,4 +96,6 @@ export const ButtonText = styled.Text<IButtonText>`
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+
+  font-family: 'Roboto_400Regular';
 `;

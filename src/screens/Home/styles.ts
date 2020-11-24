@@ -44,6 +44,7 @@ export const ButtonText = styled.Text<IButtonText>`
     color: #161494;
   `}
 
+  font-family: 'Roboto_700Bold';
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
