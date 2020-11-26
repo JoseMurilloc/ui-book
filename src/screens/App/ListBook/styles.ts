@@ -33,3 +33,21 @@ export const Input = styled.TextInput`
 export const ScrollBooks = styled(ScrollView)`
   padding: 15px 0px;
 `;
+
+export const BookNotFoundText = styled.Text`
+  font-family: 'Roboto_700Bold';
+  font-size: 22px;
+  line-height: 26px;
+  color: #0C0B5B;
+`;
+
+export const DescriptionNotFoundText = styled.Text`
+  font-family: 'Roboto_400Regular';
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  width: 281px;
+  height: 40px;
+
+  color: #0C0B5B;
+`;
