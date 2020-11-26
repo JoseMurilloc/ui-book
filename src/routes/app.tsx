@@ -23,7 +23,23 @@ export default function App() {
           style: {
             backgroundColor: '#0C0B5B',
             height: 65,
-          }
+          },
+          tabStyle: {
+            alignItems: 'center',
+            justifyContent: 'center'
+          },
+          iconStyle: {
+            width: 20,
+            height: 20,
+            flex: 0,
+          },
+          labelStyle: {
+            fontFamily: 'Roboto_400Regular',
+            fontSize: 13,
+            marginTop: 5
+          },
+          inactiveTintColor: '#fff',
+          activeTintColor: '#fff'
         }}
       >
         <Tab.Screen 
